@@ -48,7 +48,7 @@ def main():
 
         # El PC elige la opción aleatoria    
         computer = random.choice(opciones)
-        print(f"El PC ha elegido: {computer}")
+        print("\El PC ha elegido: {computer}")
         
         # Comprueba quién gana
         jugada_gana(usuario, computer)
